@@ -1,1 +1,1 @@
-github page redirect to yulin's blog page in notion
+Github page redirect to yulin's blog page in notion
