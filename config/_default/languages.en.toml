@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+isoCode = "en"
+weight = 1
+rtl = false
+
+title = "Linying Assad"
+logo = "img/author.png"
+description = "Assad's Blog"
+
+dateFormat = "2 January 2006"
+
+[author]
+name = "Linying Assad"
+image = "img/author.jpg"
+#headline = "Wake up, Milos !"
+bio = "Wake up, Milos !"
+links = [
+    { github = "https://github.com/Al-assad" },
+    { twitter = "https://twitter.com/Alassad_dev" },
+    { telegram = "https://t.me/alassad_dev" },
+    { email = "mailto:assad.dev@outlook.com" },
+]
