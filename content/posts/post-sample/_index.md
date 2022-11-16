@@ -1,10 +1,9 @@
 ---
-title: "Super cool article that I wrote"
+title: "Article demo"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna."
-categories: ["Post","Blog",]
-tags: ["post","lorem","ipsum"]
+tags: ["lorem"]
 #externalUrl: ""
-#showSummary: true
+showSummary: true
 date: 2022-11-04
 draft: false
 ---
