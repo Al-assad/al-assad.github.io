@@ -3,8 +3,7 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-#baseURL = "https://al-assad.github.io/blog/"
-baseURL = "https://127.0.0.1:1313/"
+baseURL = "https://al-assad.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
