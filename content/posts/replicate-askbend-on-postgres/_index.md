@@ -86,7 +86,7 @@ UPDATE {{ database }}.{{ table }}
 SET embedding = ai_embedding_vector(left(concat(path, content),{{max_content_length}})) WHERE length(embedding)=0"
 ```
 
-[`ai_embedding_vector`](https://databend.rs/doc/sql-functions/ai-functions/ai-embedding-vector)  实际上是对 [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings https://platform.openai.com/docs/guides/embeddings) API 的调用封装，使用了 `text-embedding-ada-002` ，最大输入 token 是 8191， 输出尺寸为 1536。
+[`ai_embedding_vector`](https://databend.rs/doc/sql-functions/ai-functions/ai-embedding-vector)  实际上是对 [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings) API 的调用封装，使用了 `text-embedding-ada-002` ，最大输入 token 是 8191， 输出尺寸为 1536。
 
 Embedding 一种常用的离散特征的高纬向量投射方式，其中最大的问题在于不同生成算法和语料造成的玄学问题，尤其是恶梦一般的调参炼丹过程，自行实现要达到比较好的效果成本不低。
 
