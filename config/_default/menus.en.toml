@@ -47,6 +47,12 @@ pre = "twitter"
 url = "https://twitter.com/Alassad_dev"
 weight = 70
 
+[[main]]
+identifier = "rss"
+pre = "rss"
+url = "https://al-assad.github.io/index.xml"
+weight = 80
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.

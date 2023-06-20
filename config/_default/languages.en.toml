@@ -21,4 +21,5 @@ links = [
     { twitter = "https://twitter.com/Alassad_dev" },
     { telegram = "https://t.me/alassad_dev" },
     { email = "mailto:assad.dev@outlook.com" },
+    { rss = "https://al-assad.github.io/index.xml" }
 ]

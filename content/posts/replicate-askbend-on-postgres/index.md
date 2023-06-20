@@ -3,9 +3,9 @@ title: "在 Postgres 上复刻 AskBend！"
 summary: "起因是在 3 月的时候刷到 Databend ai_to_sql 的一条 PR, feat: add ai_to_sql transalte natual lanauge to SQL based on your table schema by BohuTANG ..."
 tags: ["postgres", "gpt"]
 #externalUrl: ""
-showSummary: true
 date: 2023-04-16
 draft: false
+
 ---
 
 [🦑 Reading on Craft](https://www.craft.do/s/JVKr7FUnuWtJWH)
