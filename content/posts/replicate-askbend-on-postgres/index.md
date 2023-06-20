@@ -8,8 +8,10 @@ draft: false
 
 ---
 
-[🦑 Reading on Craft](https://www.craft.do/s/JVKr7FUnuWtJWH)
-
+{{< button href="https://www.craft.do/s/JVKr7FUnuWtJWH" target="_blank" >}}
+Reading on Craft.do
+{{< /button >}}
+<br/>
 <br/>
 
 起因是在 3 月的时候刷到 Databend `ai_to_sql` 的一条 PR：
