@@ -9,7 +9,7 @@ draft: false
 
 
 
-{{< button href="https://www.craft.do/s/EgsKE518ubSsH8" target="_blank" >}}
+{{< button href="https://www.craft.me/s/0CFffllzxaQ1m0" target="_blank" >}}
 Reading on Craft.do
 {{< /button >}}
 *2023.06.20 - 06.22*

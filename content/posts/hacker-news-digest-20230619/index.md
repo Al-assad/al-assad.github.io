@@ -7,7 +7,7 @@ draft: false
 
 ---
 
-{{< button href="https://www.craft.do/s/tNGQAzPWECEHvP" target="_blank" >}}
+{{< button href="https://www.craft.me/s/mgT6YVYgWM69c5" target="_blank" >}}
 Reading on Craft.do
 {{< /button >}}
 
