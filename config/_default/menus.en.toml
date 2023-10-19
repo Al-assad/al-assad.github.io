@@ -25,6 +25,11 @@ name = "Notes"
 url = "https://www.notion.so/assad/Al-assad-s-Notes-0dbfb98e35034fd5ba4a21cea8006145"
 weight = 30
 
+[[main]]
+name = "OSS"
+url = "https://github.com/linsoss"
+weight = 35
+
 #[[main]]
 #name = "Projects"
 #pageRef = "project"
