@@ -2,7 +2,7 @@
 title: "Let‘s Expand Citus Co-location Single-Shard Distributed Tables"
 summary: "Explores how to enhance Citus for managing single-shard distributed tables that should be co-located efficiently, particularly in multi-tenant environments."
 tags: [ "citus", "postgres" ]
-date: 2023-10-26
+date: 2023-10-25
 draft: false
 
 ---

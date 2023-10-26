@@ -1,7 +1,7 @@
 ---
-title: "如何切分多行 Flink SQL ?"
+title: "如何切分多行 Flink SQL?"
 summary: "在编写烂大街的 Flink SQL 应用提交设施时，将多行 Flink SQL 文本切分成多行是一个再正常不过的步骤..."
-tags: [ "Flink", "SQL" ]
+tags: [ "flink", "SQL" ]
 date: 2023-10-26
 draft: false
 
