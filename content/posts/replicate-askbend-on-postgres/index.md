@@ -173,7 +173,7 @@ SELECT ai_text_completio("<prompt>")
 
 作为一个网路乐子人，我当然不能错过这么有意思的整活，于是我花了一个周末在 Postgres 上复刻 AskBend 🤣。
 
-**项目 Github**：[https://github.com/Al-assad/postgres-gpt](https://github.com/Al-assad/postgres-gpt)
+**项目 Github**：[https://github.com/linsoss/postgres-gpt](https://github.com/linsoss/postgres-gpt)
 
 Postgres 具备了 2 个基本条件：
 
