@@ -7,14 +7,17 @@ draft: false
 
 ---
 
+In a multi-tenant scenario, Citus adeptly handles tenant partitioning for tables with the same structure while
+maintaining a robust co-location strategy.
+
 However, when dealing with tables possessed by different tenants with completely distinct structures, especially when
 these tables have relatively small data volumes (e.g., an average total row count not exceeding 5000), the direct use of
 Citus's distributed tables may not yield the desired results. The query performance may suffer due to the presence of
 multiple partitions, especially when these partitions are distributed across different nodes. In such cases, it is often
-more effective to store the table on a standard PostgreSQL node.
+more effective to store the table on a standard PostgresSQL node.
 
 In this use case, our objective is to achieve tenant data co-location on multiple nodes for single-shard tables, with
-each table maintaining only one replica, much like a standalone PostgreSQL instance. We aim to ensure that co-located
+each table maintaining only one replica, much like a standalone PostgresSQL instance. We aim to ensure that co-located
 data (belonging to the same tenant) resides on the same physical node, all while leveraging Citus's inherent sharding
 and rebalancing capabilities.
 
@@ -298,4 +301,3 @@ distributed table at any time.
 -- convert to citus native distributed table
 select alter_distributed_table('test', distribution_column := 'f2', shard_count := 32)
 ```
-
